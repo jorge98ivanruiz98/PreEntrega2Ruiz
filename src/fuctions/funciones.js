@@ -48,7 +48,7 @@ export const detailsGameById = async (id) => {
     const response = await axios.get(
       `https://free-to-play-games-database.p.rapidapi.com/api/game`,
       {
-        params: { id: '343' },
+        params: { id: id },
         headers: {
           "X-RapidAPI-Key":
             "e0f0f179c8msh5469811c044f37fp1c9bcdjsn8585b50ebcbb",

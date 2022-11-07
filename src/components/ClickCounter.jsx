@@ -13,14 +13,14 @@ function ClickCounter() {
 
   return (
     <div className="counter">
-      <button className="button-cart" onClick={handleDecrement}>
+      <button className="btn btn-primary btn-lg" onClick={handleDecrement}>
         -
       </button>
-      <p>{count}</p>
-      <button className="button-cart" onClick={handincrement}>
+      <h1 className="card-title">{count}</h1>
+      <button className="btn btn-primary btn-lg" onClick={handincrement}>
         +
       </button>
-      <button className="button-cart">Agregar al carrito</button>
+      <button className="btn btn-outline-primary">Agregar al carrito</button>
     </div>
   );
 }
